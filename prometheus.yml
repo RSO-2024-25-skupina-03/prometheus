@@ -5,3 +5,5 @@ scrape_configs:
    static_configs:
     - targets:
        - prometheus:9090
+       - stock:8080
+       - cart:8080
